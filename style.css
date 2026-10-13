@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+#missionList {
+  list-style-type: none;
+  padding: 0;
+}
+.mission {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.completed {
+  color: green;
+  text-decoration: line-through;
+}
